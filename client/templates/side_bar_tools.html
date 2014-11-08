@@ -1,22 +1,40 @@
 <template name="sidebarTools">
-  <div id="wrapper">
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav side-nav">
         <li class="active">
-          <p>Project</p>
+          <div class="row">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Project">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go</button>
+              </span>
+            </div><!--input-group-->
+          </div><!--row-->
         </li>
-        <li>
-          <p>Task</p>
+        <li class="active">
+            <div class="row">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Task #">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Go</button>
+                </span>
+              </div><!--input-group-->
+            </div><!--row-->
         </li>
-        <li>
-          <p>Task Manager</p>
+        <li class="active">
+            <div class="row">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Task Manager">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Go</button>
+                </span>
+              </div><!--input-group-->
+            </div><!--row-->
         </li>
         <hr class="hey">
         <li class="sidebar-graphs">
           <p>Graph</p>
         </li>
       </ul>
-
     </div>
-  </div>
 </template>
