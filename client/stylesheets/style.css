@@ -216,6 +216,14 @@ body {
   width: 220px;
 }
 
+.btn {
+  float: left;
+}
+
+.query-form {
+  padding: 0px;
+}
+
 /*Main panel*/
 
 @media(min-width:768px) {

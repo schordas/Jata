@@ -1,5 +1,18 @@
 <template name="table">
-  <div id="table">
-    <p>This is the table</p>
+  <div id="table" class="data-table">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Expenditure</th>
+          <th>Task</th>
+        </tr>
+      </thead>
+        <tbody>
+          <td>{{project}}</td>
+          <td>{{taskNum}}</td>
+          <td>{{taskMan}}</td>
+        </tbody>
+    </table>
   </div>
 </template>
