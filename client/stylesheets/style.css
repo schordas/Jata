@@ -246,6 +246,11 @@ body {
     font-size: 50px;
     line-height: normal;
 }
+/*Data Table*/
+.data-table {
+  height:400px;
+  overflow: auto;
+}
 
 @media(min-width:768px) {
     #wrapper {
