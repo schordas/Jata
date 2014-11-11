@@ -1,13 +1,12 @@
 # On server startup, if the database is empty, create some initial data.
-# if (Meteor.isServer) {
-#   Meteor.startup(function () {
-#     if (Data.find().count() == 0) {
-#       console.log("FUCK ME");
-#     } else {
-#       console.log("Don't fuck me");
-#     }
-#   });
-# }
+if Meteor.isServer
+  Meteor.startup ->
+    if Data.find().count() is 0
+      console.log "FUCK ME"
+    else
+      console.log "Don't fuck me"
+    return
+
     # load init data from file
     # Nothing in db or clear db
     # collectionFS to upload a file
